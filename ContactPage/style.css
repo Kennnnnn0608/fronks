@@ -1,0 +1,68 @@
+:root {
+    --primary: #;
+    --bg: #ffff;
+}
+
+*{
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    color: #0101;
+    background-color: #fff;
+    background-image: ();
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: transparent;
+    border-bottom: 1, 7px solid #010100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;z-index: 99999;
+    justify-content: end;
+    justify-content: center;
+
+}
+
+
+.navbar .navbar-nav-first a, .navbar-nav-end a{
+    display: inline-block;
+    margin: 0 1rem;
+    color: #010100;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+
+}
+.navbar .navbar-nav-end .on-click {
+    color: red;
+}
+
+.navbar .navbar-nav-first a:hover,.navbar-nav-end a:hover{
+    color: red;
+}
+
+.navbar .navbar-judul {
+    color: #010101;
+    font-size: 3rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.navbar .navbar-judul span {
+    color: purple;
+}
+
